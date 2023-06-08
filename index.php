@@ -13,7 +13,22 @@
 </head>
 
 <body>
-
+    <div class="header__top">
+        <div class="container-fluid">
+          <div class="row">
+                <div class="auth">
+                    <h2><a href="auth/login/index.php">Đăng nhập</a></h2>
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
+                  <div class="header__actions">
+                    <?php
+                      require_once("backend/filterWithCookie.php");
+                    ?>
+                  </div>
+                </div>
+          </div>
+        </div>
+    
     <div class="anhduc-wrap">
         <div class="container">
             <form action="done.php" method="post">
