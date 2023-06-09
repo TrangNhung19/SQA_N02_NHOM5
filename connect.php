@@ -1,13 +1,13 @@
 <?php
 
 
-$sname= "localhost";
+$sname= "localhost" ;
 
 $unmae= "root";
 
 $password = "";
 
-$db_name = "thue";
+$db_name =  "thue";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
